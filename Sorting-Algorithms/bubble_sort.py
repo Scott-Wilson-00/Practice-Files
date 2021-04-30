@@ -1,10 +1,12 @@
 # Bubble sorting algorithm
+# Best Case Time Complexity: O(n)
+# Worst Case Time Complexity: O(n^2)
 unsorted = [9, 4, 5, 7, 2, 1]
-unsorted2 = ['b', 'a', 'x', 'c', 'z', 'y']
+unsorted2 = ['p', 'o', 'b', 'y', 'i', 's']
 
 
 def bubble_sort(arr):
-    """Sorts an array using the bubble_sort algorithm"""
+    """Sorts an array using the bubble sort algorithm"""
     if type(arr) != list: return
 
     has_made_swap = True
