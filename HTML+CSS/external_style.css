@@ -28,14 +28,11 @@ p{
     text-align:center;
 }
 
+/* Class to align link */
 .align_text{
        text-align:center;
 }
 
-.align_image{
-    margin: 10px auto 20px;
-    display: block;
-}
 
 /* Unvisited link */
 a:link {
@@ -54,5 +51,5 @@ a:hover {
 
 /* Selected link */
 a:active {
-    color: #black;
+    color: black;
 }
