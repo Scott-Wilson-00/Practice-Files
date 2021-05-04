@@ -1,0 +1,58 @@
+/* Page body */
+body{
+	background:#E7E3D4;
+}
+
+/* Heading 1 */
+h1{
+	font-family: "Garamond", "Georgia", "Times New Roman";
+	font-size: 40px;
+	color: #B23850;
+	text-align:center;
+}
+
+/* Preformatted text */
+pre{
+    font-family: "Brush Script MT";
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+    text-align:center;
+}
+
+/* Paragraph */
+p{
+    text-indent: 8em;
+    font-family: "Brush Script MT";
+    font-size: 27px;
+    color: #B23850;
+    text-align:center;
+}
+
+.align_text{
+       text-align:center;
+}
+
+.align_image{
+    margin: 10px auto 20px;
+    display: block;
+}
+
+/* Unvisited link */
+a:link {
+    color: #3B8BEB;
+}
+
+/* Visited link */
+a:visited {
+    color: purple;
+}
+
+/* Mouse over link */
+a:hover {
+    color: #B23850;
+}
+
+/* Selected link */
+a:active {
+    color: #black;
+}
